@@ -28,7 +28,7 @@ export default function Card({ proyecto }) {
                         </span>
                     ))}
                 </p>
-                <a href={github + proyecto.github} className="btn btn-dark mt-3 d-flex justify-content-center"><span class="bi-github me-1"/>Código Fuente<span class="bi-github ms-1"/></a>
+                <a href={github + proyecto.github} className="btn btn-dark mt-3 d-flex justify-content-center"><span className="bi-github me-1"/>Código Fuente<span className="bi-github ms-1"/></a>
             </div>
         </div>
     )
